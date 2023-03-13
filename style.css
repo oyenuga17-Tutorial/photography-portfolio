@@ -378,7 +378,7 @@ svg {
 }
 
 .hero {
-  background-image: url(/assets/images/rectangle11.png);
+  background-image: url("https://res.cloudinary.com/dio00dl6e/image/upload/v1678696586/Rectangle_11_xqa9pb.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -538,7 +538,7 @@ svg {
 
 /* contact section */
 .contact {
-  background-image: url(./assets/images/Rectangle\ 26.png);
+  background-image: url("https://res.cloudinary.com/dio00dl6e/image/upload/v1678694348/Rectangle_26_1_cudtix.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
