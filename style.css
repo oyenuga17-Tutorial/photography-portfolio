@@ -284,7 +284,7 @@ svg {
 
 #menuToggle a {
   text-decoration: none;
-  color: red;
+  color: var(--clr-neutral-100);
   transition: color 0.3s ease;
 }
 #menuToggle a:hover {
@@ -328,7 +328,6 @@ svg {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
 }
 
 /*
@@ -348,11 +347,13 @@ svg {
 
 #menu {
   position: absolute;
-  /* width: 300px; */
+  width: 300px;
+  right: 0px;
+  top: 90px;
   margin: -100px 0 0 -50px;
   padding: 20px;
   padding-top: 125px;
-  background: #ededed;
+  background: var(--clr-primary-400);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
